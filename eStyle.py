@@ -1,7 +1,7 @@
 # This module is to set plot style for scientific publications
 # Juncheng E <ejcjason@gmail.com>
 
-__all__ = ['plt','np','setXminor','setYminor']
+__all__ = ['plt','np','setXminor','setYminor','setXmajor','setYmajor']
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -29,3 +29,9 @@ def setXminor(ax,nt=5):
 def setYminor(ax,nt=5):
     minor_locator = AutoMinorLocator(nt)
     ax.yaxis.set_minor_locator(minor_locator)
+
+def setXmajor(ax, nb=5):
+    plt.locator_params(axis='x',nbins=nb)
+
+def setYmajor(ax, nb=5):
+    plt.locator_params(axis='y',nbins=nb)

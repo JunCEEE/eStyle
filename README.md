@@ -42,4 +42,11 @@ Add these lines to `params` in `~/.ipython/eStyle.py`
 
 `setYminor(ax,nt)`
 
-nt: number of ticks, default=5
+nt: number of ticks, default = 5
+
+### Number of major ticks
+`setXmajor(ax,nb)`
+
+`setYmajor(ax,nb)`
+
+nb: number of tick bins, default = 5
