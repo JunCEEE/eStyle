@@ -35,12 +35,12 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.autosummary',
-    "numpydoc",
+    #"numpydoc",
 ]
 
 autosummary_generate = True
 autosummary_imported_members = True
-numpydoc_class_members_toctree = True
+#numpydoc_class_members_toctree = True
 
 
 # Napoleon settings
