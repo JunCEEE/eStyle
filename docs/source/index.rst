@@ -30,6 +30,7 @@ API
 Contribute
 ----------
 
+- GitHub: https://github.com/ejcjason/eStyle
 - Issue Tracker: https://github.com/ejcjason/eStyle/issues
 - Source Code: https://github.com/ejcjason/eStyle
 
